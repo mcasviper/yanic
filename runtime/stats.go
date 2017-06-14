@@ -25,16 +25,6 @@ func NewGlobalStats(nodes *Nodes, site string) (result *GlobalStats) {
 
 	for _, node := range nodes.List {
 		if node.Online {
-			result.Nodes++
-			if stats := node.Statistics; stats != nil {
-				result.Clients += stats.Clients.Total
-				result.ClientsWifi24 += stats.Clients.Wifi24
-				result.ClientsWifi5 += stats.Clients.Wifi5
-				result.ClientsWifi += stats.Clients.Wifi
-			}
-			if node.IsGateway() {
-				result.Gateways++
-			}
 			if info := node.Nodeinfo; info != nil {
 				if len(site) == 0 || info.System.SiteCode == site {
 					result.Nodes++
@@ -43,6 +33,9 @@ func NewGlobalStats(nodes *Nodes, site string) (result *GlobalStats) {
 						result.ClientsWifi24 += stats.Clients.Wifi24
 						result.ClientsWifi5 += stats.Clients.Wifi5
 						result.ClientsWifi += stats.Clients.Wifi
+					}
+					if node.IsGateway() {
+						result.Gateways++
 					}
 
 					result.Models.Increment(info.Hardware.Model)

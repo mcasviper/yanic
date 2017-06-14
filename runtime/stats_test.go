@@ -13,8 +13,8 @@ func TestGlobalStats(t *testing.T) {
 
 	assert := assert.New(t)
 	assert.EqualValues(1, stats.Gateways)
-	assert.EqualValues(3, stats.Nodes)
-	assert.EqualValues(25, stats.Clients)
+	assert.EqualValues(3, int(stats.Nodes))
+	assert.EqualValues(25, int(stats.Clients))
 
 	// check models
 	assert.Len(stats.Models, 2)
