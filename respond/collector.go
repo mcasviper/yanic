@@ -258,6 +258,6 @@ func (coll *Collector) globalStatsWorker() {
 func (coll *Collector) saveGlobalStats() {
 	for _, site := range coll.sites {
 		stats := runtime.NewGlobalStats(coll.nodes, site)
-		coll.db.AddStatistics(stats, time.Now())
+		coll.db.InsertGlobals(stats, time.Now())
 	}
 }

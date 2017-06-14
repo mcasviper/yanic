@@ -49,7 +49,7 @@ func Connect(configuration interface{}) (database.Connection, error) {
 }
 
 func (conn *Connection) InsertNode(node *runtime.Node) {
-	conn.log("InsertNode: [", node.Statistics.NodeID, "] clients: ", node.Statistics.Clients.Total)
+	conn.log("InsertNode: [", node.Statistics.NodeID, "] clients: ", node.Statistics.Clients.Total, "sitecode:", node.Nodeinfo.System.SiteCode)
 }
 
 func (conn *Connection) InsertGlobals(stats *runtime.GlobalStats, time time.Time) {
