@@ -1,8 +1,8 @@
 package meshviewer
 
 import (
-	"github.com/FreifunkBremen/yanic/data"
-	"github.com/FreifunkBremen/yanic/jsontime"
+	"github.com/mcasviper/yanic/data"
+	"github.com/mcasviper/yanic/jsontime"
 )
 
 // Node struct
@@ -55,7 +55,7 @@ func NewStatistics(stats *data.Statistics) *Statistics {
 	/* The Meshviewer could not handle absolute memory output
 	 * calc the used memory as a float which 100% equal 1.0
 	 * calc is coppied from node statuspage (look discussion:
-	 * https://github.com/FreifunkBremen/yanic/issues/35)
+	 * https://github.com/mcasviper/yanic/issues/35)
 	 */
 	memoryUsage := 1 - (float64(stats.Memory.Free)+float64(stats.Memory.Buffers)+float64(stats.Memory.Cached))/float64(stats.Memory.Total)
 

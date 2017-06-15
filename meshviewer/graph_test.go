@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/FreifunkBremen/yanic/data"
-	"github.com/FreifunkBremen/yanic/runtime"
+	"github.com/mcasviper/yanic/data"
+	"github.com/mcasviper/yanic/runtime"
 )
 
 type TestNode struct {

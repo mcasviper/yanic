@@ -8,13 +8,13 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/FreifunkBremen/yanic/database"
-	"github.com/FreifunkBremen/yanic/database/all"
-	"github.com/FreifunkBremen/yanic/meshviewer"
-	"github.com/FreifunkBremen/yanic/respond"
-	"github.com/FreifunkBremen/yanic/rrd"
-	"github.com/FreifunkBremen/yanic/runtime"
-	"github.com/FreifunkBremen/yanic/webserver"
+	"github.com/mcasviper/yanic/database"
+	"github.com/mcasviper/yanic/database/all"
+	"github.com/mcasviper/yanic/meshviewer"
+	"github.com/mcasviper/yanic/respond"
+	"github.com/mcasviper/yanic/rrd"
+	"github.com/mcasviper/yanic/runtime"
+	"github.com/mcasviper/yanic/webserver"
 )
 
 var (

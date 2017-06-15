@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/FreifunkBremen/yanic/respond"
-	"github.com/FreifunkBremen/yanic/runtime"
+	"github.com/mcasviper/yanic/respond"
+	"github.com/mcasviper/yanic/runtime"
 )
 
 // Usage: yanic-query wlp4s0 "[fe80::eade:27ff:dead:beef%wlp4s0]:1001"

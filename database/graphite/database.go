@@ -1,7 +1,7 @@
 package graphite
 
 import (
-	"github.com/FreifunkBremen/yanic/database"
+	"github.com/mcasviper/yanic/database"
 	"github.com/fgrosse/graphigo"
 	"log"
 	"sync"

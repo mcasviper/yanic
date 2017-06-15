@@ -8,9 +8,9 @@ __   __          _
 Yet another node info collector
 ```
 
-[![Build Status](https://travis-ci.org/FreifunkBremen/yanic.svg?branch=master)](https://travis-ci.org/FreifunkBremen/yanic)
-[![Coverage Status](https://coveralls.io/repos/github/FreifunkBremen/yanic/badge.svg?branch=master)](https://coveralls.io/github/FreifunkBremen/yanic?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/FreifunkBremen/yanic)](https://goreportcard.com/report/github.com/FreifunkBremen/yanic)
+[![Build Status](https://travis-ci.org/mcasviper/yanic.svg?branch=master)](https://travis-ci.org/mcasviper/yanic)
+[![Coverage Status](https://coveralls.io/repos/github/mcasviper/yanic/badge.svg?branch=master)](https://coveralls.io/github/mcasviper/yanic?branch=master)
+[![Go Report Card](https://goreportcard.com/badge/github.com/mcasviper/yanic)](https://goreportcard.com/report/github.com/mcasviper/yanic)
 
 `yanic` is a respondd client that fetches, stores and publishes information about a Freifunk network. The goals:
 * Generating JSON for [Meshviewer](https://github.com/ffrgb/meshviewer)

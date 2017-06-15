@@ -3,7 +3,7 @@ package database
 import (
 	"time"
 
-	"github.com/FreifunkBremen/yanic/runtime"
+	"github.com/mcasviper/yanic/runtime"
 )
 
 var quit chan struct{}

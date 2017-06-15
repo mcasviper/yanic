@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/FreifunkBremen/yanic/data"
+	"github.com/mcasviper/yanic/data"
 )
 
 func TestGlobalStats(t *testing.T) {

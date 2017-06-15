@@ -4,7 +4,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/FreifunkBremen/yanic/runtime"
+	"github.com/mcasviper/yanic/runtime"
 )
 
 type nodeBuilder func(*runtime.Nodes) interface{}

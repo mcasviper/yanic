@@ -3,10 +3,10 @@ go:
   - 1.8.x
   - master
 install:
-  - go get -t github.com/FreifunkBremen/yanic/...
+  - go get -t github.com/mcasviper/yanic/...
   - go get github.com/mattn/goveralls
   - go get golang.org/x/tools/cmd/cover
 script:
   - ./.test-coverage
-  - go install github.com/FreifunkBremen/yanic/cmd/yanic
-  - go install github.com/FreifunkBremen/yanic/cmd/yanic-query
+  - go install github.com/mcasviper/yanic/cmd/yanic
+  - go install github.com/mcasviper/yanic/cmd/yanic-query

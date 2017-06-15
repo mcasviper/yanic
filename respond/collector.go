@@ -9,10 +9,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/FreifunkBremen/yanic/data"
-	"github.com/FreifunkBremen/yanic/database"
-	"github.com/FreifunkBremen/yanic/jsontime"
-	"github.com/FreifunkBremen/yanic/runtime"
+	"github.com/mcasviper/yanic/data"
+	"github.com/mcasviper/yanic/database"
+	"github.com/mcasviper/yanic/jsontime"
+	"github.com/mcasviper/yanic/runtime"
 )
 
 // Collector for a specificle respond messages

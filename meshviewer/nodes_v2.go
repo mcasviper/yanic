@@ -1,8 +1,8 @@
 package meshviewer
 
 import (
-	"github.com/FreifunkBremen/yanic/jsontime"
-	"github.com/FreifunkBremen/yanic/runtime"
+	"github.com/mcasviper/yanic/jsontime"
+	"github.com/mcasviper/yanic/runtime"
 )
 
 // NodesV2 struct, to support new version of meshviewer (which are in legacy develop branch or newer)

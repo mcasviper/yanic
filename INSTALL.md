@@ -26,7 +26,7 @@ export PATH=$PATH:$GOPATH/bin
 
 ### Compile
 ```sh
-go get -v -u github.com/FreifunkBremen/yanic/cmd/...
+go get -v -u github.com/mcasviper/yanic/cmd/...
 ```
 
 #### Work with other databases
@@ -35,7 +35,7 @@ you are welcome to create another subpackage from database in your fork like the
 
 ### Configurate
 ```sh
-cp /opt/go/src/github.com/FreifunkBremen/yanic/config_example.toml /etc/yanic.conf
+cp /opt/go/src/github.com/mcasviper/yanic/config_example.toml /etc/yanic.conf
 ```
 You only need to edit `/etc/yanic.conf` under section `[respondd]` the `interface` for a easy startup.
 And create the following folders:
@@ -54,7 +54,7 @@ For `nodes_path` and `graph_path` should be under the same folder for a meshview
 
 ### Service
 ```bash
-cp /opt/go/src/github.com/FreifunkBremen/yanic/contrib/init/linux-systemd/yanic.service /lib/systemd/system/
+cp /opt/go/src/github.com/mcasviper/yanic/contrib/init/linux-systemd/yanic.service /lib/systemd/system/
 systemctl daemon-reload
 systemctl start yanic
 systemctl enable yanic

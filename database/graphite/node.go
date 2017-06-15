@@ -4,7 +4,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/FreifunkBremen/yanic/runtime"
+	"github.com/mcasviper/yanic/runtime"
 	"github.com/fgrosse/graphigo"
 )
 

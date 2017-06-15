@@ -3,8 +3,8 @@ package all
 import (
 	"time"
 
-	"github.com/FreifunkBremen/yanic/database"
-	"github.com/FreifunkBremen/yanic/runtime"
+	"github.com/mcasviper/yanic/database"
+	"github.com/mcasviper/yanic/runtime"
 )
 
 type Connection struct {
