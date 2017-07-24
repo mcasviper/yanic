@@ -18,8 +18,8 @@ func (conn *Connection) InsertNode(node *runtime.Node) {
 }
 
 func (conn *Connection) PruneNodes(deleteAfter time.Duration) {
-	query := fmt.Sprintf("delete from %s where time < now() - %ds", MeasurementNode, deleteAfter/time.Second)
-	conn.client.Query(client.NewQuery(query, conn.config.Database(), "m"))
+	// query := fmt.Sprintf("delete from %s where time < now() - %ds", MeasurementNode, deleteAfter/time.Second)
+	// conn.client.Query(client.NewQuery(query, conn.config.Database(), "m"))
 }
 
 // returns tags and fields for InfluxDB
