@@ -45,7 +45,7 @@ func buildNodeStats(node *runtime.Node) (tags models.Tags, fields models.Fields)
 
 	if nodeinfo := node.Nodeinfo; nodeinfo != nil {
 		tags.SetString("hostname", nodeinfo.Hostname)
-		tags.SetString("site_code", nodeinfo.System.SiteCode)
+//		tags.SetString("site_code", nodeinfo.System.SiteCode)
 		if owner := nodeinfo.Owner; owner != nil {
 			tags.SetString("owner", owner.Contact)
 		}
