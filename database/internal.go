@@ -13,7 +13,7 @@ var quit chan struct{}
 //  you should use New()
 func Start(conn Connection, config *runtime.Config) {
 	quit = make(chan struct{})
-	go deleteWorker(conn, config.Database.DeleteInterval.Duration, config.Database.DeleteAfter.Duration)
+//	go deleteWorker(conn, config.Database.DeleteInterval.Duration, config.Database.DeleteAfter.Duration)
 }
 
 func Close(conn Connection) {
